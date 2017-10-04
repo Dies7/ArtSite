@@ -1,11 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>West High Art</title>
+    <link href="css.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+          $("header").click(function(){
+              $(this).fadeOut();
+          });
+      });
+    </script>
+
+   <style>
+   body {
+     background: url("images/demobc.jpg");
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: 100% auto;
+     background-color: red;
+   }
+   </style>
   </head>
   <body>
-  <!--  <div class="container">
+    <div class="container-fluid">
+
+      <header class="lead">
+        <h1>West High Art Club</h1>
+      </header>
+
+      <div class="list-inline lead center-block">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="members.html">Club Members</a></li>
+        <li><a href="gallery.html">Art Gallery</a></li>
+        <li><a href="events.html">Upcoming Events</a></li>
+      </div>
+
+    </div>
+  <div class="container">
   <h2>Image Gallery</h2>
   <p>The .thumbnail class can be used to display an image gallery.</p>
   <p>The .caption class adds proper padding and a dark grey color to text inside thumbnails.</p>
@@ -42,7 +79,7 @@
       </div>
     </div>
   </div>
-</div> -->
+</div>
 
-  </body>
+</body>
 </html>
