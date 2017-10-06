@@ -1,12 +1,21 @@
 header {
   text-align: center;
   color: white;
+  background: url("header.JPG");
+  display: block;
+  background-position: left top;
+  background-repeat: no-repeat;
+	background-size: 100% auto;
 }
 
 body {
   text-align: center;
   display: block;
-
+  background-image: url("images/background.jpg");
+  background-color: red;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 li {
@@ -18,20 +27,11 @@ a {
   color: red;
 }
 
-div.scrollmenu {
-    background-color: #333;
+.scrollable-menu {
+    height: auto;
+    max-height: 350px;
+    max-width: 90%;
+    overflow-x: hidden;
     overflow: auto;
     white-space: nowrap;
-}
-
-div.scrollmenu a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px;
-    text-decoration: none;
-}
-
-div.scrollmenu a:hover {
-    background-color: #777;
 }
